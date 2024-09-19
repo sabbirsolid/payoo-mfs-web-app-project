@@ -5,7 +5,7 @@ document.getElementById('login-btn').addEventListener('click',function(event){
     console.log(pinNumber);
 
     //this is temporary , you should not use this
-    if(phoneNumber === '5' && pinNumber === '1234'){
+    if(phoneNumber === '01791111482' && pinNumber === '1234'){
         console.log('you are logged in');
         window.location.href = '/home.html';
     }
